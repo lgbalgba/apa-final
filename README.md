@@ -3,8 +3,8 @@
 ## Prova de Conceito Arquitetural
 
 #### Membros
-Alexsander Muniz Da Costa
-Lucas Godinho Balisa Andrade
-Geysa Carolina De Souza Fernandes
+* Alexsander Muniz Da Costa
+* Lucas Godinho Balisa Andrade
+* Geysa Carolina De Souza Fernandes
 
 #### Arquitetura Proposta
