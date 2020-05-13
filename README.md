@@ -13,4 +13,4 @@ O estilo arquitetural para organização de domínio escolhido foi o Clean Archi
 Como padrão arquitetural organizacional foi escolhido o MVC a fim de manter a simplicidade e adicionar mais camadas de organização à aplicação. Mantendo a organização dos módulos de negócio propostos e a facilidade da implementação de testes.
 Como linguagem e framework escolhemos .NETCore pela familiaridade da equipe com a ferramenta.
 
-[https://ashwanichauhanblog.files.wordpress.com/2018/10/clean_arch.png]
+[!(https://ashwanichauhanblog.files.wordpress.com/2018/10/clean_arch.png)]
