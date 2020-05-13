@@ -14,3 +14,5 @@ Como padrão arquitetural organizacional foi escolhido o MVC a fim de manter a s
 Como linguagem e framework escolhemos .NETCore pela familiaridade da equipe com a ferramenta.
 
 [!(https://ashwanichauhanblog.files.wordpress.com/2018/10/clean_arch.png)]
+
+[![React+Redux Demo](https://raw.githubusercontent.com/ivanpaulovich/clean-architecture-manga/docs/docs/clean-architecture-manga-react.png)](https://clean-architecture-manga.azurewebsites.net)
