@@ -15,4 +15,4 @@ Como linguagem e framework escolhemos .NETCore pela familiaridade da equipe com 
 
 [!(https://ashwanichauhanblog.files.wordpress.com/2018/10/clean_arch.png)]
 
-[![React+Redux Demo](https://raw.githubusercontent.com/ivanpaulovich/clean-architecture-manga/docs/docs/clean-architecture-manga-react.png)](https://clean-architecture-manga.azurewebsites.net)
+[![React+Redux Demo](https://ashwanichauhanblog.files.wordpress.com/2018/10/clean_arch.png)](https://clean-architecture-manga.azurewebsites.net)
