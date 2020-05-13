@@ -4,8 +4,9 @@
 
 #### Membros
 * Alexsander Muniz Da Costa
-* Lucas Godinho Balisa Andrade
 * Geysa Carolina De Souza Fernandes
+* Lucas Godinho Balisa Andrade
+
 
 #### Arquitetura Proposta
 O estilo arquitetural para organização de domínio escolhido foi o Clean Architecture por possuir uma arquitetura mais voltada a divisão de módulos mais bem definidos e devido a sua natureza que permite alterar a tecnologia de apresentação sem demais ônus a parte de negócio que é a camada mais interna do modelo. O baixo acoplamento facilita a utilização de mocks na realização dos testes de unidade, além de permitir a criação de testes de unidade mais especializados e completos.
