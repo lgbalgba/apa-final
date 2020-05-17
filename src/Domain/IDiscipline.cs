@@ -1,6 +1,6 @@
 ﻿namespace Domain
 {
-    public class ICourse
+    public interface IDiscipline
     {
     }
 }

@@ -1,9 +1,9 @@
 ﻿namespace Domain
 {
-    public class Subject : ISubject
+    public class Discipline : IDiscipline
     {
         /// <summary>
-        ///     Nome do Aluno.
+        ///     Nome da Disciplina.
         /// </summary>
         public string Name { get; set; }
 
@@ -16,6 +16,11 @@
         ///     Nome do Professor.
         /// </summary>
         public string Teacher { get; set; }
+
+        /// <summary>
+        ///     Turma referente a oferta da disciplina.
+        /// </summary>
+        public IClass Class { get; set; }
 
 
     }

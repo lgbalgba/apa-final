@@ -1,6 +1,6 @@
 ﻿namespace Domain
 {
-    public class ISubject
+    public interface IClass
     {
     }
 }

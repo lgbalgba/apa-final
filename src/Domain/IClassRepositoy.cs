@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Domain
 {
-    interface ISubjectRepository
+    interface IClassRepositoy
     {
     }
 }

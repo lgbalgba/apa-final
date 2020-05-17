@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Domain
+namespace Application.UseCases
 {
-    interface ICourseRepositoy
+    class DisciplineAssignmentUseCase
     {
     }
 }
