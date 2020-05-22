@@ -37,6 +37,12 @@ namespace Infrastructure.Respositories
 
         }
 
+        public void CancelDiscipline(int id, Discipline discipline)
+        {
+            IStudent student = GetStudent(id);
+            student.RemoveDisciplineAssignment(discipline);
+        }
+
         public void registerDiscipline(int id, Discipline discipline)
         {
             IStudent student = GetStudent(id);
