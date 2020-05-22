@@ -1,6 +1,6 @@
 
-using System.Collections.Generic;
 using Infrastructure.Entities;
+using System.Collections.Generic;
 
 namespace Infrastructure.DataAccess
 {
@@ -12,6 +12,10 @@ namespace Infrastructure.DataAccess
             new Discipline("Algoritmo e	Estrutura de Dados", "", ""),
         };
 
+        private IList<Student> _students = new List<Student>();
+
         public IList<Discipline> Disciplines => _disciplines;
+
+        public IList<Student> Students => _students;
     }
 }

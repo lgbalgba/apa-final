@@ -5,6 +5,12 @@ namespace Domain
 {
     public class Student : IStudent
     {
+
+        /// <summary>
+        ///     Id do Aluno.
+        /// </summary>
+        public int Id { get; set; }
+
         /// <summary>
         ///     Nome do Aluno.
         /// </summary>
