@@ -1,6 +1,6 @@
 ﻿using Domain.Exceptions;
-using System;
 using System.Collections.Generic;
+
 namespace Domain
 {
     public class Student : IStudent
@@ -24,7 +24,7 @@ namespace Domain
         /// <summary>
         ///     Matérias com a matrícula efetivada.
         /// </summary>
-        public List<IDiscipline> RegistredDisciplines { get; set; }
+        public List<IDiscipline> RegisteredDisciplines { get; set; }
 
         /// <summary>
         ///     Matérias com interesse de matricular.
@@ -41,7 +41,7 @@ namespace Domain
             if(SelectedDisciplines.Contains(discipline))
             {
                 SelectedDisciplines.Remove(discipline);
-                RegistredDisciplines.Add(discipline);
+                RegisteredDisciplines.Add(discipline);
             }
             else
             {
@@ -51,9 +51,9 @@ namespace Domain
 
         public void RemoveDisciplineAssignment(Discipline discipline)
         {
-            if (RegistredDisciplines.Contains(discipline))
+            if (RegisteredDisciplines.Contains(discipline))
             {
-                RegistredDisciplines.Remove(discipline);
+                RegisteredDisciplines.Remove(discipline);
             }
             else
             {
@@ -61,5 +61,9 @@ namespace Domain
             }
         }
 
+        public IList<IDiscipline> SelectStudentAssignments()
+        {
+            return RegisteredDisciplines;
+        }
     }
 }
