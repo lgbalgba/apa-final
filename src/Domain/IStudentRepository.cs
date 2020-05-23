@@ -6,5 +6,6 @@ namespace Domain
 {
     public interface IStudentRepository
     {
+        void registerDiscipline(int id, Discipline discipline);
     }
 }

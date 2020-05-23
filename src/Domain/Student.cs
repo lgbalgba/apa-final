@@ -5,7 +5,11 @@ namespace Domain
 {
     public class Student : IStudent
     {
-
+        public Student()
+        {
+            RegisteredDisciplines = new List<IDiscipline>();
+            SelectedDisciplines = new List<IDiscipline>();
+        }
         /// <summary>
         ///     Id do Aluno.
         /// </summary>

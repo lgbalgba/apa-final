@@ -9,11 +9,11 @@ namespace Application.UseCases
     public class DisciplineAssignmentUseCase
     {
         private StudentService _studentService;
-        private StudentRepository _studentRepository;
+        private IStudentRepository _studentRepository;
 
         public DisciplineAssignmentUseCase(
             StudentService studentService,
-            StudentRepository studentRepository
+            IStudentRepository studentRepository
             )
         {
             this._studentService = studentService;

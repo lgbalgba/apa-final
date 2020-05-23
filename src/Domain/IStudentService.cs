@@ -10,6 +10,6 @@ namespace Domain
 
         void StudentRemoveDisciplineAssignment(Student student, Discipline discipline);
 
-        public IList<IDiscipline> SelectStudentAssignments(Student student);
+        IList<IDiscipline> SelectStudentAssignments(Student student);
     }
 }
