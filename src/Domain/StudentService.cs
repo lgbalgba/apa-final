@@ -1,4 +1,6 @@
-﻿namespace Domain
+﻿using System.Collections.Generic;
+
+namespace Domain
 {
     public class StudentService : IStudentService
     {
@@ -15,6 +17,11 @@
         public void StudentSelectDiscipline(Student student, Discipline discipline)
         {
             student.SelectDiscipline(discipline);
+        }
+
+        public IList<IDiscipline> GetDisicplines(Student student)
+        {
+            return null;
         }
     }
 }
