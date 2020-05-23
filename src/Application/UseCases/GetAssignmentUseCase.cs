@@ -6,12 +6,12 @@ using Infrastructure.Respositories;
 
 namespace Application.UseCases
 {
-    public class CancelAssignmentUseCase
+    public class GetAssignmentUseCase
     {
         private StudentService _studentService;
         private StudentRepository _studentRepository;
 
-        public CancelAssignmentUseCase (
+        public GetAssignmentUseCase(
             StudentService studentService,
             StudentRepository studentRepository
             )
@@ -19,13 +19,11 @@ namespace Application.UseCases
             this._studentService = studentService;
             this._studentRepository = studentRepository;
         }
-
-        public void execute()
+        
+        public IList<IDiscipline> execute(int studentId)
         {
-            Student student = new Student();
-            Discipline discipline = new Discipline();
-            _studentService.StudentRemoveDisciplineAssignment(student, discipline);
-            _studentRepository.CancelDiscipline(student.Id, discipline);
+            return null;
+
         }
     }
 }
